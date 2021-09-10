@@ -1,0 +1,14 @@
+/* pseudo code:
+1-Find the smallest card. Swap it with the first card.
+2-Find the second-smallest card. Swap it with the second card.
+3-Find the third-smallest card. Swap it with the third card.
+4-Repeat finding the next-smallest card, and swapping it into the correct position until the array is sorted.
+*/
+/* my code */
+
+var numbers = [83,1,45,95,45,52,11,47,0,45,67,84];
+numbers.sort(function(a, b) {
+  return a - b;
+});
+console.log(numbers);
+
